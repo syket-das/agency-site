@@ -1,62 +1,26 @@
 [
   {
     "id": "marc",
-    "name": "Marc",
-    "socialId": "@mrousavy",
+    "name": "Ansh",
+    "socialId": "@ansh007",
     "link": "#"
   },
   {
     "id": "szymon",
-    "name": "Szymon",
-    "socialId": "@szymon20000",
+    "name": "Syket",
+    "socialId": "@syket007",
     "link": "#"
   },
   {
     "id": "thomas",
-    "name": "Thomas",
-    "socialId": "@thomas-coldwell",
+    "name": "Tanishk",
+    "socialId": "@tanishk007",
     "link": "#"
   },
   {
     "id": "christoph",
-    "name": "Christoph",
-    "socialId": "@chrispader",
-    "link": "#"
-  },
-  {
-    "id": "janic",
-    "name": "Janic",
-    "socialId": "@janicduplessis",
-    "link": "#"
-  },
-  {
-    "id": "catalin",
-    "name": "Catalin",
-    "socialId": "@catalinmiron",
-    "link": "#"
-  },
-  {
-    "id": "mo",
-    "name": "Mo",
-    "socialId": "@gorhom",
-    "link": "#"
-  },
-  {
-    "id": "eric",
-    "name": "Eric",
-    "socialId": "@ericvicenti",
-    "link": "#"
-  },
-  {
-    "id": "matei",
-    "name": "Matei",
-    "socialId": "@mateioprea",
-    "link": "#"
-  },
-  {
-    "id": "viktoria",
-    "name": "Viktoria",
-    "socialId": "@viktoria.psd",
+    "name": "Shivam",
+    "socialId": "@shivam007",
     "link": "#"
   }
 ]
