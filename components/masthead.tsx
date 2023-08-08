@@ -31,12 +31,12 @@ const Masthead: React.FC = () => {
         loop
         muted
         playsInline
-        className="absolute w-full h-full object-cover z-[-1] filter blur-[2px] brightness-50  transition-opacity duration-1000  
+        className="absolute w-full h-full object-cover z-[-1]   transition-opacity duration-1000  
 
         "
       >
-        <source src="/assets/masthead-bg.m4v" type="video/mp4; codecs=hvc1" />
-        <source src="/assets/masthead-bg.webm" type="video/webm; codecs=vp9" />
+        {/* <source src="/assets/masthead-bg.m4v" type="video/mp4; codecs=hvc1" /> */}
+        <source src="/assets/glitch.webm" type="video/webm; codecs=vp9" />
       </video>
       <div
         className={`flex-grow-0 pt-10 transition-opacity duration-1000 ${
