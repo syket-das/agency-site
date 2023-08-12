@@ -1,6 +1,6 @@
-import React from "react";
-import Member from "./member";
-import memberList from "../constants/dummy/member.json";
+import React from 'react';
+import Member from './member';
+import memberList from '../constants/dummy/member.json';
 
 const AboutUs: React.FC = () => {
   return (
@@ -23,6 +23,7 @@ const AboutUs: React.FC = () => {
               name={member.name}
               socialId={member.socialId}
               link={member.link}
+              img={member.img}
             />
           ))}
         </div>

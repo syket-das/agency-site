@@ -1,21 +1,23 @@
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 
 interface Props {
   id: string;
   name: string;
   socialId: string;
   link: string;
+  img: string;
 }
 
-const Member: React.FC<Props> = ({ id, name, socialId, link }) => (
+const Member: React.FC<Props> = ({ id, name, socialId, link, img }) => (
   <div>
     <Image
-      src={`/assets/team/margelo_faces_${id}.svg`}
+      src={img}
       alt={name}
       width={1366}
-      height={1555}
+      height={1366}
+      className="rounded-full mx-auto shadow-xl filter grayscale  hover:grayscale-0 transition duration-500 ease-in-out"
     />
     <div className="text-2xl xl:text-3xl">{name}</div>
     <div className="text-xl">

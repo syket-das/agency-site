@@ -3,32 +3,32 @@
     "page": 0,
     "header": "We built",
     "link": "#",
-    "namelink": "Pink Panda",
-    "endTitle": "'s app.",
-    "src": "/assets/works/pinkpanda.png",
+    "namelink": "Shopee - eCommerce",
+    "endTitle": " Website.",
+    "src": "/assets/works/ecom-min.png",
     "width": 840,
     "height": 1620,
-    "alt": "Pink Panda"
+    "alt": "Shopee eCommerce"
   },
   {
     "page": 1,
-    "header": "We made",
+    "header": "We developed",
     "link": "#",
-    "namelink": "Steakwallet",
-    "endTitle": " faster.",
-    "src": "/assets/works/steakwallet.png",
+    "namelink": "Resort Management System",
+    "endTitle": " .",
+    "src": "/assets/works/resort-min.png",
     "width": 840,
     "height": 1620,
-    "alt": "Steak Wallet"
+    "alt": ",."
   },
   {
     "page": 2,
-    "header": "We helped",
+    "header": "We Created",
     "link": "#",
-    "namelink": "Showtime",
-    "endTitle": "ship faster.",
-    "src": "/assets/works/showtime.png",
-    "width": 840,
+    "namelink": "Face Recognition System",
+    "endTitle": " for an organization.",
+    "src": "/assets/works/face.jpg",
+    "width": 900,
     "height": 1620,
     "alt": "Showtime"
   }

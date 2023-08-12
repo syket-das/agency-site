@@ -3,24 +3,28 @@
     "id": "marc",
     "name": "Ansh",
     "socialId": "@ansh007",
-    "link": "#"
+    "link": "#",
+    "img": "/assets/team/sd.jpeg"
   },
   {
     "id": "szymon",
     "name": "Syket",
     "socialId": "@syket007",
-    "link": "#"
+    "link": "#",
+    "img": "/assets/team/sd.jpeg"
   },
   {
     "id": "thomas",
     "name": "Tanishk",
     "socialId": "@tanishk007",
-    "link": "#"
+    "link": "#",
+    "img": "/assets/team/sd.jpeg"
   },
   {
     "id": "christoph",
     "name": "Shivam",
     "socialId": "@shivam007",
-    "link": "#"
+    "link": "#",
+    "img": "/assets/team/sd.jpeg"
   }
 ]
