@@ -35,8 +35,7 @@ const Masthead: React.FC = () => {
 
         "
       >
-        {/* <source src="/assets/masthead-bg.m4v" type="video/mp4; codecs=hvc1" /> */}
-        <source src="/assets/glitch.webm" type="video/webm; codecs=vp9" />
+        <source src="/assets/bg.webm" type="video/webm; codecs=vp9" />
       </video>
       <div
         className={`flex-grow-0 pt-10 transition-opacity duration-1000 ${
@@ -44,18 +43,32 @@ const Masthead: React.FC = () => {
         }`}
       >
         <Image
-          src="/assets/logo.svg"
-          alt="logo type"
-          width={128 / 3}
-          height={114 / 3}
+          src="/assets/TWB-logos_transparent (copy).png"
+          alt=""
+          width={100}
+          height={100}
+          className="filter drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)]  animate-pulse"
         />
       </div>
-      <div className="p-12 font-bold z-10 text-white drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] text-center flex-1 flex items-center justify-center flex-col">
-        <h1 className="mb-6 text-5xl xl:text-6xl">🅃🅆🄱</h1>
-        <h2 className="mb-2 text-2xl xl:text-5xl tracking-tight ">
-          {/* <span>ʎɔuǝƃ∀ ʅɐʇᴉƃᴉᗡ ∀ - ɹɐzɐꓭ ʞɹoϺ ǝɥꓕ</span> */}
-          <span>The Work Bazaar - A Digital Agency</span>
+      <div className=" font-bold z-10 text-white drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] text-center flex-1 flex items-center justify-center flex-col">
+        {/* <h1 className="mb-6 text-5xl xl:text-6xl">🅃🅆🄱</h1> */}
+
+        <h2 className="text-2xl  tracking-tight text-slate-500 ">
+          <span>A Digital Work Agency</span>
         </h2>
+
+        <p className="mt-6 text-lg text-slate-900">
+          We design and build digital products that solve real problems.
+        </p>
+
+        <div className="mt-6">
+          <a
+            href="#work"
+            className="inline-block px-6 py-3 text-lg font-semibold bg-white text-black rounded-full"
+          >
+            See our work
+          </a>
+        </div>
       </div>
       <div
         className={`flex-grow-0 pb-20 md:pb-10 transition-all duration-1000 ${
