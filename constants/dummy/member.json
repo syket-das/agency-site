@@ -1,5 +1,12 @@
 [
   {
+    "id": "thomas",
+    "name": "Tanishk",
+    "socialId": "@tanishk007",
+    "link": "#",
+    "img": "/assets/team/"
+  },
+  {
     "id": "marc",
     "name": "Ansh",
     "socialId": "@ansh007",
@@ -14,17 +21,10 @@
     "img": "/assets/team/sd.jpeg"
   },
   {
-    "id": "thomas",
-    "name": "Tanishk",
-    "socialId": "@tanishk007",
-    "link": "#",
-    "img": "/assets/team/sd.jpeg"
-  },
-  {
     "id": "christoph",
     "name": "Shivam",
     "socialId": "@shivam007",
     "link": "#",
-    "img": "/assets/team/sd.jpeg"
+    "img": "/assets/team/"
   }
 ]
