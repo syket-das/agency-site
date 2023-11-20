@@ -1,14 +1,14 @@
-import Image from "next/image";
-import React from "react";
-import { Tile, TileBackground, TileContent, TileWrapper } from "./tile";
+import Image from 'next/image';
+import React from 'react';
+import { Tile, TileBackground, TileContent, TileWrapper } from './tile';
 import {
   WorkBackground,
   WorkContainer,
   WorkLeft,
   WorkLink,
   WorkRight,
-} from "./work";
-import workList from "../constants/dummy/work.json";
+} from './work';
+import workList from '../constants/dummy/work.json';
 
 const Works = () => (
   <TileWrapper numOfPages={workList?.length}>

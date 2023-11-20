@@ -35,29 +35,33 @@ const Masthead: React.FC = () => {
 
         "
       >
-        <source src="/assets/bg.webm" type="video/webm; codecs=vp9" />
+        <source src="/assets/bbg.webm" type="video/webm; codecs=vp9" />
       </video>
+      {/* <img
+        src="/assets/bg.jpg"
+        className="absolute w-full h-full object-cover z-[-1]   transition-opacity duration-1000  "
+      /> */}
       <div
         className={`flex-grow-0 pt-10 transition-opacity duration-1000 ${
           !imageLoaded ? 'opacity-100' : 'opacity-0'
         }`}
       >
         <Image
-          src="/assets/TWB-logos_transparent (copy).png"
+          src="/assets/lg2.png"
           alt=""
-          width={100}
-          height={100}
+          width={80}
+          height={80}
           className="filter drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)]  animate-pulse"
         />
       </div>
       <div className=" font-bold z-10 text-white drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] text-center flex-1 flex items-center justify-center flex-col">
         {/* <h1 className="mb-6 text-5xl xl:text-6xl">🅃🅆🄱</h1> */}
 
-        <h2 className="text-2xl  tracking-tight text-slate-500 ">
-          <span>A Digital Work Agency</span>
+        <h2 className="text-2xl  tracking-tight text-slate-200 border-2 p-2 ">
+          <span className="font-bold shadow-md">A Digital Work Agency</span>
         </h2>
 
-        <p className="mt-6 text-lg text-slate-900">
+        <p className="mt-6 text-lg text-white font-bold shadow-md ">
           We design and build digital products that solve real problems.
         </p>
 
